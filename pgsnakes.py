@@ -159,7 +159,7 @@ while not exit:
     
         #Logic behind Eating Food and showing next    
         if(snake_x-food_x<fsize and snake_x-food_x>-size)and(snake_y-food_y<fsize and snake_y-food_y>-size):
-            pygame.mixer.music.load('C:/Users/Saksham Setia/Desktop/Coding/Python/PyGame/TutorialMake/Snakes/beep.mp3')
+            pygame.mixer.music.load('beep.mp3')
             pygame.mixer.music.play()
             score += 1
             x = 1
